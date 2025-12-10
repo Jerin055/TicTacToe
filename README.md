@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# TictTacToe
+This project is a fully interactive Tic Tac Toe game built using React.js, designed with a clean UI and smooth gameplay experience. The game allows two players to play alternately using X and O, with real-time updates and automatic win detection.
+>>>>>>> 4d94a3228d28797688dee9db6984768383998f8c
