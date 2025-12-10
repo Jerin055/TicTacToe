@@ -1,75 +1,81 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+🎮 Tic Tac Toe Game – React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple, interactive, and visually appealing Tic Tac Toe game built using React.js.
+The game supports two players (X and O), detects wins, handles ties, highlights the winning pattern, and includes a reset option for replay.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+🔄 Two-player gameplay (X and O)
 
-### `npm start`
+🧠 Automatic win detection (all 8 possible win combinations)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🤝 Tie detection when the board is full
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+⭐ Winning boxes shrink to indicate the winner visually
 
-### `npm test`
+🖼 Larger symbols during gameplay for better visibility
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔒 Board locks after a win or tie (prevents extra clicks)
 
-### `npm run build`
+🔁 Reset button to restart the game instantly
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🎨 Custom-designed UI with smooth interactions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🛠 Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React.js
 
-### `npm run eject`
+JavaScript (ES6)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+CSS3
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Image assets (X and O icons)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📂 Project Structure
+/tictactoe
+│── src
+│   ├── components
+│   │   └── TicTacToe.jsx
+│   ├── assets
+│   │   ├── x.png
+│   │   └── o.png
+│   ├── styles
+│   │   └── TicTacToe.css
+│   └── index.js
+└── README.md
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🎯 How to Play
 
-## Learn More
+Player X starts the game.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Click any empty box to place your symbol.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The game checks for:
 
-### Code Splitting
+A win
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+A tie
 
-### Analyzing the Bundle Size
+If someone wins, the title displays the winner’s symbol.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If a tie happens, the title shows "Game Tied".
 
-### Making a Progressive Web App
+Press Reset to start a new match.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📸 Screenshot (Add your own)
 
-### Advanced Configuration
+You can add a screenshot here:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Tic Tac Toe Screenshot](./screenshot.png)
 
-### Deployment
+🧪 Future Enhancements (Optional)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Add score tracking (X wins, O wins, tie count)
 
-### `npm run build` fails to minify
+Add sound effects for move, win, tie
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# TictTacToe
-This project is a fully interactive Tic Tac Toe game built using React.js, designed with a clean UI and smooth gameplay experience. The game allows two players to play alternately using X and O, with real-time updates and automatic win detection.
->>>>>>> 4d94a3228d28797688dee9db6984768383998f8c
+Add an AI mode (play against computer)
+
+Add animations for symbol placement
+
+Add dark/light themes
